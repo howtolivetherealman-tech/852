@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="nbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="55%" stop-color="#0F2547" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </linearGradient>
+    <linearGradient id="nbAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#nbBg)" />
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#DC2626" stroke-width="8" opacity="0.85" />
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="10 6" opacity="0.35" />
+  <!-- Stylized Broadcast Globe & Torch -->
+  <ellipse cx="256" cy="230" rx="110" ry="110" fill="#1E3A8A" opacity="0.45" stroke="#60A5FA" stroke-width="3" />
+  <path d="M146 230 H366 M256 120 V340" stroke="#93C5FD" stroke-width="2" opacity="0.4" />
+  <ellipse cx="256" cy="230" rx="58" ry="110" fill="none" stroke="#93C5FD" stroke-width="2" opacity="0.4" />
+  <!-- Flame / Press Torch -->
+  <path d="M256 96 C282 132 302 158 282 192 C272 208 240 208 230 192 C210 158 230 132 256 96 Z" fill="#F59E0B" />
+  <path d="M256 118 C272 142 280 160 268 182 C262 192 250 192 244 182 C232 160 240 142 256 118 Z" fill="#FEF08A" />
+  <!-- Bold NB Monogram -->
+  <rect x="96" y="216" width="320" height="88" rx="14" fill="url(#nbAccent)" stroke="#FFFFFF" stroke-width="4" />
+  <text x="256" y="274" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-weight="900" font-size="48" letter-spacing="3">NETI BHARATHAM</text>
+  <!-- Telugu Subtitle Banner -->
+  <rect x="136" y="322" width="240" height="54" rx="10" fill="#FFFFFF" />
+  <text x="256" y="359" text-anchor="middle" fill="#0A192F" font-family="sans-serif" font-weight="800" font-size="30">నేటి భారతం</text>
+</svg>

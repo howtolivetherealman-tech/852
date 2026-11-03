@@ -1,0 +1,10 @@
+{
+  "name": "Remix NETI BHARATHAM – నేటి భారతం",
+  "description": "Official Telugu Digital News Portal (netibhaaratham.com) covering National, State, District, and Mandal news across India with verified Press Reporter IDs.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

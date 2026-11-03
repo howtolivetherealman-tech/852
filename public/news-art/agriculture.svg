@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="agriSky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="55%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#agriSky)" />
+  <circle cx="960" cy="150" r="76" fill="#FDE047" opacity="0.85" />
+  <!-- Hills and Dam Reservoir -->
+  <path d="M0 420 Q280 290 560 410 T1200 370 L1200 675 L0 675 Z" fill="#065F46" />
+  <!-- Dam Spillway -->
+  <rect x="360" y="370" width="480" height="130" fill="#CBD5E1" />
+  <path d="M400 390 L370 560 H830 L800 390 Z" fill="#38BDF8" opacity="0.85" />
+  <!-- Paddy Fields Foreground -->
+  <path d="M0 530 Q600 480 1200 540 L1200 675 L0 675 Z" fill="#10B981" opacity="0.8" />
+  <rect x="60" y="56" width="320" height="46" rx="6" fill="#DC2626" />
+  <text x="220" y="86" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif" font-weight="800" font-size="22" letter-spacing="2">AGRICULTURE &amp; IRRIGATION</text>
+</svg>

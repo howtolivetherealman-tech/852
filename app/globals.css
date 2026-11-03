@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-telugu: 'Noto Sans Telugu', 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Telugu', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #090d16;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+  }
+}
